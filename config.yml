@@ -100,7 +100,7 @@ params:
 
   editPost:
     URL: "https://github.com/onefact/onefact.org/content"
-    Text: "✏️ Suggest Changes" # edit text
+    Text: "✏️ Help improve this page" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
