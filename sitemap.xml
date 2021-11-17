@@ -2,13 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://onefact.github.io/test/</loc>
-    <lastmod>2021-11-17T13:55:59-05:00</lastmod>
+    <loc>https://onefact.org/assisted-living/</loc>
   </url><url>
-    <loc>https://onefact.github.io/categories/</loc>
+    <loc>https://onefact.org/categories/</loc>
   </url><url>
-    <loc>https://onefact.github.io/</loc>
+    <loc>https://onefact.org/</loc>
   </url><url>
-    <loc>https://onefact.github.io/tags/</loc>
+    <loc>https://onefact.org/projects/</loc>
+  </url><url>
+    <loc>https://onefact.org/tags/</loc>
   </url>
 </urlset>

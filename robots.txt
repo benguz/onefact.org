@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://onefact.github.io/sitemap.xml
+Sitemap: https://onefact.org/sitemap.xml
