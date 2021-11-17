@@ -1,6 +1,6 @@
 ---
 title: "About"
-draft: false
+draft: true
 editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: " " # edit text
