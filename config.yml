@@ -99,7 +99,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/onefact/onefact.org/content"
+    URL: "https://github.com/onefact/onefact.org/tree/main/content"
     Text: "✏️ Help improve this page" # edit text
     appendFilePath: true # to append file path to Edit link
 
