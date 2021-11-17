@@ -1,8 +1,11 @@
-baseURL: "https://onefact.github.io/"
+baseURL: "https://onefact.org/"
 title: One Fact
 paginate: 5
 theme: PaperMod
 languageCode: en-us
+
+permalinks:
+  projects: /:filename/
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -20,17 +23,17 @@ params:
   title: ExampleSite
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: ""
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  defaultTheme: light # dark, light
+  disableThemeToggle: true
 
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: false
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -71,16 +74,16 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Hi there! \U0001F44B"
+    Content: Changes in policy and the law that better people's health often start from one fact. We build data analysis methods and infrastructure to help ensure this process is equitable, efficient, and transparent. 
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/onefact"
+    # - name: twitter
+    #   url: "https://twitter.com/"
+    # - name: stackoverflow
+    #   url: "https://stackoverflow.com"
 
   analytics:
     google:
@@ -96,8 +99,8 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/onefact/onefact.org/content"
+    Text: "✏️ Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -112,14 +115,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: about
+      name:  
+      url: 
+      weight: 10
     # - identifier: categories
       # name: categories
       # url: /categories/
       # weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
+    # - identifier: tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 20
     # - identifier: example
     #   name: example.org
     #   url: https://example.org
