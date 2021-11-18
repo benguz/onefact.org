@@ -53,7 +53,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: " "
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -74,8 +74,9 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there! \U0001F44B"
-    Content: Changes in policy and the law that better people's health often start from one fact. We build data analysis methods and infrastructure to help ensure this process is equitable, efficient, and transparent. 
+    Title: "Changes in policy and the law"
+    Content: 
+      can improve the choices people are able to make about their health; this change can start from a single fact. We build data analysis methods, products, and infrastructure to ensure this process from fact to legislation is equitable, efficient, and transparent. Say hi! Reach us at hello@onefact.org 👋
 
   socialIcons:
     - name: github
