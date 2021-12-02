@@ -76,7 +76,9 @@ params:
   homeInfoParams:
     Title: "Changes in policy and the law"
     Content: 
-      can improve the choices people are able to make about their health; this change can start from a single fact. We build data analysis methods, products, and infrastructure to ensure this process from fact to legislation is equitable, efficient, and transparent. Say hi! Reach us at hello@onefact.org 👋
+      can improve the choices people are able to make about their health; this change can start from a single fact. 
+      # We build data analysis methods, products, and infrastructure to ensure this process from fact to legislation is equitable, efficient, and transparent. 
+      # Say hi! Reach us at hello@onefact.org 👋
 
   socialIcons:
     - name: github
