@@ -16,13 +16,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://onefact.org/assisted-living/</guid>
-      <description>Blurb about dataset
-Test line TEST
-Table in markdown with description of variables
-Here is the Altair visual
-Link to repo:
-Link to paper:
-Link to Overleaf:</description>
+      <description>This website contains the first public dataset of assisted living facilities in the United States, covering over 44,000 facilities from all 50 states and the District of Columbia.
+Here is the dataset (13MB) as a CSV. Here is the github repo, which contains all scripts used to process, clean, and analyze the data, as well as all raw data gathered from state licensing agencies.
+The data was collected over the course of summer 2021.</description>
     </item>
     
   </channel>
