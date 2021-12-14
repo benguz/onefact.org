@@ -4,6 +4,9 @@ paginate: 5
 theme: PaperMod
 languageCode: en-us
 
+googleAnalytics: G-8TM1CW9K86
+
+
 permalinks:
   projects: /:filename/
 
