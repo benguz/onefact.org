@@ -88,9 +88,12 @@ params:
     # - name: stackoverflow
     #   url: "https://stackoverflow.com"
 
+  googleAnalytics: G-8TM1CW9K86
+  
   analytics:
     google:
-      SiteVerificationTag: "G-8TM1CW9K86"
+      # SiteVerificationTag: "G-8TM1CW9K86"
+      googleAnalytics: G-8TM1CW9K86
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
