@@ -7,7 +7,7 @@ author: ""
 
 This website contains the first public dataset of assisted living facilities in the United States, covering over 44,000 facilities from all 50 states and the District of Columbia.
 
-[Here](https://github.com/onefact/assisted-living/raw/main/alf-dataset.csv) is the dataset (13MB) as a CSV. [Here](https://github.com/onefact/assisted-living) is the github repo, which contains all scripts used to process, clean, and analyze the data, as well as all raw data gathered from state licensing agencies.
+[Here](https://github.com/onefact/assisted-living/blob/main/assisted-living-facilities.csv) is the dataset (13MB) as a CSV. [Here](https://github.com/onefact/assisted-living) is the github repo, which contains all scripts used to process, clean, and analyze the data, as well as all raw data gathered from state licensing agencies.
 
 The data was collected over the course of summer 2021. The dataset---along with a conceptual replication of previous work and a geospatial analysis of assisted living accessibility---was accepted at NeurIPS 2021 as part of the [Machine Learning in Public](https://sites.google.com/nyu.edu/mlph2021/home) (MLPH) workshop.
 
