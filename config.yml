@@ -4,6 +4,9 @@ paginate: 5
 theme: PaperMod
 languageCode: en-us
 
+googleAnalytics: G-8TM1CW9K86
+
+
 permalinks:
   projects: /:filename/
 
@@ -11,8 +14,6 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
-googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
@@ -88,9 +89,12 @@ params:
     # - name: stackoverflow
     #   url: "https://stackoverflow.com"
 
+  googleAnalytics: G-8TM1CW9K86
+  
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      # SiteVerificationTag: "G-8TM1CW9K86"
+      googleAnalytics: G-8TM1CW9K86
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
