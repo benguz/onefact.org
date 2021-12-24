@@ -19,6 +19,8 @@ If you have any questions, feel free to reach out to [Anton Stengel](https://www
 
 ### Background about dataset
 
+{{< embed-pdf url="./al-graph.pdf" >}}
+
 Since assisted living facilities are not federally regulated, there is no standardized definition of what constitutes a facility. We followed the NCAL's [2019 Assisted Living
 State Regulatory Review](https://www.ahcancal.org/Assisted-Living/Policy/Documents/2019_reg_review.pdf) to define which licensing types count for each state. We collected data by 
 
