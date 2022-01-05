@@ -13,14 +13,25 @@ The data was collected over the course of summer 2021. The dataset---along with 
 
 [Here](https://drive.google.com/file/d/1lqGBlq93fJXXHLCkbn_c6bjd_-AAs6e3/view?usp=sharing) is the preprint paper.
 
+Below you can see the full dataset embedded as an Excel. If you first click on the dataset, you can then `command + f` to search for anything. The dataset may take a couple seconds to load. We're currently working on making this embedding less bad, adding better search functionality, and more.
+
+{{< rawhtml >}}
+  <iframe src="https://onedrive.live.com/embed?cid=4CCCD4F04CDF0446&resid=4CCCD4F04CDF0446%21106&authkey=AAx98JTEhBMy04M&em=2" width="1500" height="450" frameborder="0" scrolling="no"></iframe>
+  <br/><br/>
+{{< /rawhtml >}}
+
+
+
 If you have any questions, feel free to reach out to [Anton Stengel](https://www.linkedin.com/in/anton-stengel-339179147/) at:
 
- *astengel* at *princeton* dot *edu*.
+*astengel* at *princeton* dot *edu*.
 
 ### Background about dataset
 
 Since assisted living facilities are not federally regulated, there is no standardized definition of what constitutes a facility. We followed the NCAL's [2019 Assisted Living
-State Regulatory Review](https://www.ahcancal.org/Assisted-Living/Policy/Documents/2019_reg_review.pdf) to define which licensing types count for each state. We collected data by 
+State Regulatory Review](https://www.ahcancal.org/Assisted-Living/Policy/Documents/2019_reg_review.pdf) to define which licensing types count for each state. 
+
+We collected data by 
 
 1. retrieving CSVs and PDFs from state websites
 1. scraping data from state websites 
@@ -28,7 +39,7 @@ State Regulatory Review](https://www.ahcancal.org/Assisted-Living/Policy/Documen
 1. submitting Freedom of Information Act requests
 
 
-Here are the variables for each facility instance. The **Percent Filled** column specifies what percent of facilities in the dataset contain the relevant variable.
+Additionally, we augmented the dataset with relevent county-level metrics that were retrieved from the Census. Here are the variables for each facility instance. The **Percent Filled** column specifies what percent of facilities in the dataset contain the relevant variable.
 
 | Variable                                  | Description                                                  | Percent Filled |
 |-------------------------------------------|--------------------------------------------------------------|----------------|
