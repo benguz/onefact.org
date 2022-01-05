@@ -24,7 +24,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: One Fact
   description: "We build transparent data and technology to better the choices people and policymakers can make to improve health."
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [AI, data, transparency, health, agency, liberty, freedom, health care]
   author: ""
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
