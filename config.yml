@@ -22,8 +22,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: One Fact
+  description: "We build transparent data and technology to better the choices people and policymakers can make to improve health."
   keywords: [Blog, Portfolio, PaperMod]
   author: ""
   # author: ["Me", "You"] # multiple authors
