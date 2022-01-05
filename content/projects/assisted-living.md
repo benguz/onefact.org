@@ -11,7 +11,7 @@ This website contains the first public dataset of assisted living facilities in 
 
 The data was collected over the course of summer 2021. The dataset---along with a conceptual replication of previous work and a geospatial analysis of assisted living accessibility---was accepted at NeurIPS 2021 as part of the [Machine Learning in Public](https://sites.google.com/nyu.edu/mlph2021/home) (MLPH) workshop.
 
-[Here](https://drive.google.com/file/d/1lqGBlq93fJXXHLCkbn_c6bjd_-AAs6e3/view?usp=sharing) is the preprint paper.
+:page_facing_up: [Here](/papers/stengel_2021_assisted-living.pdf) is the preprint paper.
 
 Below you can see the full dataset embedded as an Excel. If you first click on the dataset, you can then `command + f` to search for anything. The dataset may take a couple seconds to load. We're currently working on making this embedding less bad, adding better search functionality, and more.
 
