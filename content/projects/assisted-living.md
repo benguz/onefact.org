@@ -1,5 +1,5 @@
 ---
-title: "Assisted Living in the United States: an Open Dataset"
+title: "Building the first public dataset of group homes in the US"
 # date: 2021-11-17T15:00:42-05:00
 draft: false
 author: ""
