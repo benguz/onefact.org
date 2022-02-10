@@ -11,9 +11,7 @@ This fact &ndash; that we couldn&rsquo;t access a comprehensive list of group ho
 <link rel=canonical href=https://onefact.org/assisted-living/>
 <meta name=yandex-verification content="XYZabc">
 <meta name=msvalidate.01 content="XYZabc">
-<link crossorigin=anonymous href=/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css integrity="sha256-b2AFbUTT9+tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as=style>
-<link rel=preload href=/images/onefact-logo.svg as=image>
-<script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
+<link href=/assets/css/stylesheet.min.746a86b58bb2b052b5e4df8216510494f04f81e62c08d626150c26c69ca929da.css integrity="sha256-dGqGtYuysFK15N+CFlEElPBPgeYsCNYmFQwmxpypKdo=" rel="preload stylesheet" as=style>
 <link rel=icon href=https://onefact.org/images/onefact-icon.svg>
 <link rel=icon type=image/png sizes=16x16 href=https://onefact.org/images/onefact-icon16x16.png>
 <link rel=icon type=image/png sizes=32x32 href=https://onefact.org/images/onefact-icon32x32.png>
@@ -22,11 +20,8 @@ This fact &ndash; that we couldn&rsquo;t access a comprehensive list of group ho
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.92.1">
-<noscript>
-<style>#theme-toggle,.top-link{display:none}</style>
-</noscript>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8TM1CW9K86"></script>
-<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-8TM1CW9K86',{anonymize_ip:!1})}</script>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','G-8TM1CW9K86','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
 <meta property="og:title" content="Building the first public dataset of group homes in the US">
 <meta property="og:description" content="This research project started as a result of spending hundreds of hours on the phone trying to find a home for someone suffering from severe schizophrenia and no income or insurance, and realizing how difficult it was to get a simple list of where Medicaid would pay for their housing.
 This fact &ndash; that we couldn&rsquo;t access a comprehensive list of group homes or assisted living facilities for someone in need &ndash; made us realize that we shouldn&rsquo;t gaslight ourselves.">
@@ -42,6 +37,9 @@ This fact &ndash; that we couldn&rsquo;t access a comprehensive list of group ho
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Building the first public dataset of group homes in the US","name":"Building the first public dataset of group homes in the US","description":"This research project started as a result of spending hundreds of hours on the phone trying to find a home for someone suffering from severe schizophrenia and no income or insurance, and realizing how difficult it was to get a simple list of where Medicaid would pay for their housing.\nThis fact \u0026ndash; that we couldn\u0026rsquo;t access a comprehensive list of group homes or assisted living facilities for someone in need \u0026ndash; made us realize that we shouldn\u0026rsquo;t gaslight ourselves.","keywords":[],"articleBody":"This research project started as a result of spending hundreds of hours on the phone trying to find a home for someone suffering from severe schizophrenia and no income or insurance, and realizing how difficult it was to get a simple list of where Medicaid would pay for their housing.\nThis fact – that we couldn’t access a comprehensive list of group homes or assisted living facilities for someone in need – made us realize that we shouldn’t gaslight ourselves.\nWe had failed over and over again to find reliable housing for this person through byzantine government services designed to help people in need: this problem was therefore bigger than the hundreds of hours we’d spent on the phone for a single person.\nThis meant we could start collecting such a dataset to help others in need find housing, and help policymakers access this valuable data and start increasing access and analyzing health disparity. Further, new machine learning and data science methods could then be applied to build better policy.\nThis website contains the first public dataset of assisted living facilities in the United States, covering over 44,000 facilities from all 50 states and the District of Columbia.\nWhat is an assisted living facility?\nAn assisted living facility is sometimes known as a group home. It is a place where someone can live, have access to social supports such as transportation, and receive assistance with activities of daily living. For example, an individual with serious mental illness who lives in a group home may need staff assistance with taking medications, while an elderly person living in an assisted living facility may require help with activities of daily living, such as getting dressed or eating.\nWhy does this matter?\nIn the United States, some states allow people who are disabled or have serious mental illness like schizophrenia to receive money for housing via the Medicaid program. However, to find a group home is extremely difficult and can require many phone calls to social workers, hospitals, and various other services. The fact is, until we created this dataset, there was no way someone with mental illness (or their family or care team) could access a list of addresses where they could live with government support. If we care about a social safety net, having data on what this looks like matters.\nHere is the dataset (13MB) as a CSV. Here is the github repo, which contains all scripts used to process, clean, and analyze the data, as well as all raw data gathered from state licensing agencies.\nThe data was collected over the course of summer 2021. The dataset—along with a conceptual replication of previous work and a geospatial analysis of assisted living accessibility—was accepted at NeurIPS 2021 as part of the Machine Learning in Public (MLPH) workshop.\n📄 Here is the preprint paper.\nHere is a brief presentation on the dataset that was given at the NeurIPS 2021 Machine Learning for Public Health workshop:\n\rBelow you can see the full dataset embedded as an Excel. If you first click on the dataset, you can then command + f to search for anything. The dataset may take a couple seconds to load. We’re currently working on making this embedding less bad, adding better search functionality, and more.\n\r\rIf you have any questions, feel free to reach out to Anton Stengel at:\nastengel at princeton dot edu.\nBackground about dataset Since assisted living facilities are not federally regulated, there is no standardized definition of what constitutes a facility. We followed the NCAL’s 2019 Assisted Living State Regulatory Review to define which licensing types count for each state.\nWe collected data by\n retrieving CSVs and PDFs from state websites scraping data from state websites directly contacting state licensing agencies submitting Freedom of Information Act requests  Additionally, we augmented the dataset with relevent county-level metrics that were retrieved from the Census. Here are the variables for each facility instance. The Percent Filled column specifies what percent of facilities in the dataset contain the relevant variable.\n   Variable Description Percent Filled     Facility Name The name of the facility 100%   Facility ID The facility identification number 65%   License Number The facility license number 48%   Address The primary physical address of the facility 100%   City The city of the address 98%   State The state of the address 100%   Zip Code The zip code of the address 97%   County The county of the address 100%   County FIPS The FIPS code of the county 100%   Latitude Latitude of the address 100%   Longitude Longitude of the address 100%   Facility Type Primary The primary licensing type of the facility 100%   Facility Type Secondary The secondary licensing type of the facility 41%   Capacity The total capacity of the facility in beds 86%   Ownership Type The ownership structure of the facility 27%   Licensee The license holder of the facility 48%   Phone Number Primary phone number associated with facility 98%   Email Address Primary email address associated with facility 35%   Date Accessed Date that the data was retrieved from state licensing agency 100%   Total County AL Need The computed need-based metric for county of facility 100%   County Percent of Population 65 or Older Retrieved from 2015-2019 ACS data 100%   County Median Age Retrieved from 2015-2019 ACS data 100%   County Homeownership Rate Retrieved from 2015-2019 ACS data 100%   County College Education or Higher Rate Retrieved from 2015-2019 ACS data 100%   County Percent Black Population Retrieved from 2015-2019 ACS data 100%   County Median Home Value of Owned Homes Retrieved from 2015-2019 ACS data 100%   County Percent Hispanic Population Retrieved from 2015-2019 ACS data 100%   County Percent of Population 85 or Older Retrieved from 2015-2019 ACS data 100%   County Medan Household Income Retrieved from 2015-2019 ACS data 100%   County Unemployment Rate Retrieved from 2020 ACS data 100%   County Less Than High School Diploma Rate Retrieved from 2015-2019 ACS data 100%   County Percent Whilte Population Retrieved from 2015-2019 ACS data 100%   County Gender Ratio Retrieved from 2015-2019 ACS data 100%   County Poverty Rate Retrieved from 2015-2019 ACS data 100%    ","wordCount":"998","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"0001-01-01T00:00:00Z","mainEntityOfPage":{"@type":"WebPage","@id":"https://onefact.org/assisted-living/"},"publisher":{"@type":"Organization","name":"One Fact","logo":{"@type":"ImageObject","url":"https://onefact.org/images/onefact-icon.svg"}}}</script>
 </head>
 <body id=top>
+<noscript>
+<style type=text/css>#theme-toggle,.top-link{display:none}</style>
+</noscript>
 <header class=header>
 <nav class=nav>
 <div class=logo>
@@ -50,13 +48,12 @@ This fact &ndash; that we couldn&rsquo;t access a comprehensive list of group ho
 <span class=logo-switches>
 </span>
 </div>
-<ul id=menu>
+<ul id=menu onscroll=menu_on_scroll()>
 <li>
 <a href=https://onefact.org/ title>
 <span></span>
 </a>
-</li>
-</ul>
+</li></ul>
 </nav>
 </header>
 <main class=main>
@@ -65,10 +62,12 @@ This fact &ndash; that we couldn&rsquo;t access a comprehensive list of group ho
 <h1 class=post-title>
 Building the first public dataset of group homes in the US
 </h1>
-<div class=post-meta><a href=https://github.com/onefact/onefact.org/tree/main/content/projects/assisted-living.md rel="noopener noreferrer" target=_blank>✏️ Help improve this page</a>
+<div class=post-meta>
+<a href=https://github.com/onefact/onefact.org/tree/main/content/projects/assisted-living.md rel="noopener noreferrer" target=_blank>✏️ Help improve this page</a>
 </div>
 </header>
-<div class=post-content><p>This research project started as a result of spending hundreds of hours on the phone trying to find a home for someone suffering from severe schizophrenia and no income or insurance, and realizing how difficult it was to get a simple list of where Medicaid would pay for their housing.</p>
+<div class=post-content>
+<p>This research project started as a result of spending hundreds of hours on the phone trying to find a home for someone suffering from severe schizophrenia and no income or insurance, and realizing how difficult it was to get a simple list of where Medicaid would pay for their housing.</p>
 <p>This fact &ndash; that we couldn&rsquo;t access a comprehensive list of group homes or assisted living facilities for someone in need &ndash; made us realize that we shouldn&rsquo;t gaslight ourselves.</p>
 <p>We had failed over and over again to find reliable housing for this person through byzantine government services designed to help people in need: this problem was therefore bigger than the hundreds of hours we&rsquo;d spent on the phone for a single person.</p>
 <p>This meant we could start collecting such a dataset to help others in need find housing, and help policymakers access this valuable data and start increasing access and analyzing health disparity. Further, new machine learning and data science methods could then be applied to build better policy.</p>
@@ -284,13 +283,19 @@ State Regulatory Review</a> to define which licensing types count for each state
 <footer class=post-footer>
 </footer>
 </article>
-</main>
-<footer class=footer>
+</main><footer class=footer>
 <span>&copy; 2022 <a href=https://onefact.org/>One Fact</a></span>
+<span>&#183;</span>
+<span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
+<span>&#183;</span>
+<span>Theme <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span>
 </footer>
-<a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+<a href=#top aria-label="go to top" title="Go to Top (Alt + G)">
+<button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</button>
 </a>
-<script>let menu=document.getElementById('menu');menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
+<script defer src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
+<script>window.onload=function(){localStorage.getItem("menu-scroll-position")&&(document.getElementById('menu').scrollLeft=localStorage.getItem("menu-scroll-position"))};function menu_on_scroll(){localStorage.setItem("menu-scroll-position",document.getElementById('menu').scrollLeft)}document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
 <script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script>
 </body>
 </html>
