@@ -39,3 +39,8 @@ draft: false
     - [ ] If you're applying to more than one organization, you can let us know which one you prefer in case of a tie.
 - [ ]  Write your application (with help from your mentors!). All applications must go through Google's application system; we can't accept any application unless it is submitted there. Make it easy for your mentors to give you feedback. If you're using Google docs, enable comments and submit a "draft" (we can't see the "final" versions until applications close). If you're using a format that doesn't accept comments, make sure your email is on the document and don't forget to check for feedback!
 - [ ] Submit your application to Google before the deadline. We actually recommend you submit a few days early in case you have internet problems or the system is down. Google does not extend this deadline, so it's best to be prepared early! You can edit your application up until the system closes. 
+
+
+### Tips
+
+* Communication is probably the most important part of the application process. Talk to the mentors and other developers, listen when they give you advice, and demonstrate that you've understood by incorporating their feedback into what you're proposing. We reject a lot of applicants who haven't listened to mentor feedback. If your mentors tell you that a project idea won't work for them, you're probably not going to get accepted unless you change it.
