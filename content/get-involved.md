@@ -44,3 +44,6 @@ draft: false
 ### Tips
 
 * Communication is probably the most important part of the application process. Talk to the mentors and other developers, listen when they give you advice, and demonstrate that you've understood by incorporating their feedback into what you're proposing. We reject a lot of applicants who haven't listened to mentor feedback. If your mentors tell you that a project idea won't work for them, you're probably not going to get accepted unless you change it.
+
+
+License: this application was adapted from https://python-gsoc.org/index.html#apply under the [CC by 4.0](https://creativecommons.org/licenses/by/4.0/) license.
