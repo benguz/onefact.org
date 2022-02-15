@@ -20,5 +20,14 @@
 This fact &amp;ndash; that we couldn&amp;rsquo;t access a comprehensive list of group homes or assisted living facilities for someone in need &amp;ndash; made us realize that we shouldn&amp;rsquo;t gaslight ourselves.</description>
     </item>
     
+    <item>
+      <title>Get Involved</title>
+      <link>https://onefact.org/get-involved/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://onefact.org/get-involved/</guid>
+      <description>Checklist for application: Assisted Living Map  Watch the talk we presented at the Machine Learning for Public Health workshop Read the paper we published describing the open dataset. Familiarize yourself with the codebase for the open dataset Submit a pull request to the repo with an example of an analysis you have done of all 44,000+ assisted living facilities in the United States (could be descriptive statistics, a plot, a model, a map, etc - you choose :) Send us an email (hello@onefact.</description>
+    </item>
+    
   </channel>
 </rss>
