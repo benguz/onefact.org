@@ -5,7 +5,7 @@ ShowToc: true
 
 This is a sampling of the ideas available for potential GSoC 2022 contributors - feel free to propose your own! The goal is to start from a basic fact about the world, and use data analysis, infrastructure, and open source software to make that fact accessible to the public, researchers, and policymakers, to help them create systematic change and improve health through better policy and decision-making.
 
-A sampling of our past open source work:
+A sampling of our mentors' past open source work:
 * Contributions to first version of TensorFlow Probability, such as a numerically stable Bernoulli log-likelihood that has been widely used (https://www.tensorflow.org/probability/; LDAP: @jaana; [3.6k stars](https://github.com/tensorflow/probability))
 * Canonical open source variational autoencoder implementation ([900+ stars](https://github.com/altosaar/variational-autoencoder/))
 * Open source bioinformatics and data science for public health: [first public dataset](https://github.com/onefact/assisted-living) of 44k assisted living facilities in the US - published at the peer-reviewed NeurIPS [Machine Learning for Public Health](https://sites.google.com/nyu.edu/mlph2021) conference in December 2021 and selected for oral presentation
