@@ -9,6 +9,7 @@ A sampling of our past open source work:
 * Contributions to first version of TensorFlow Probability, such as a numerically stable Bernoulli log-likelihood that has been widely used (https://www.tensorflow.org/probability/; LDAP: @jaana; [3.6k stars](https://github.com/tensorflow/probability))
 * Canonical open source variational autoencoder implementation ([900+ stars](https://github.com/altosaar/variational-autoencoder/))
 * Open source bioinformatics and data science for public health: [first public dataset](https://github.com/onefact/assisted-living) of 44k assisted living facilities in the US - published at the peer-reviewed NeurIPS [Machine Learning for Public Health](https://sites.google.com/nyu.edu/mlph2021) conference in December 2021 and selected for oral presentation
+* We worked with [The Browser](https://thebrowser.com) to build the first open source machine learning powered newsfeed framework, and published the source code on [GitHub](https://github.com/the-browser/recommending-interesting-writing) and the [whitepaper](http://ceur-ws.org/Vol-2682/short2.pdf) describing the architecture at an Association for Computing Machinery workshop on recommender systems 
 * The first open source language model validated against clinician judgment: https://arxiv.org/abs/1904.05342 ([223 stars](https://github.com/kexinhuang12345/clinicalBERT))
 
 ## Software for visualization and geospatial analysis 
