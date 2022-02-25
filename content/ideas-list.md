@@ -231,7 +231,7 @@ The [Reimagine911](https://reimaginecrisis.org/) volunteer National Action Team 
 
 * An open source framework prototype recommendation systems to help 911 operators triage emergency response coordination efforts 
 * The framework should support the ability to ingest, clean, and visualize the call records from the 13 cities and estimated 45 public safety answering points from around the United States
-* Integration with open source clinical guideline language frameworks for interoperability, such as [GDL](https://github.com/openEHR/gdl-guideline-models#readme) and [openEHR](https://github.com/openEHR/)
+* Public dashboards using Apache Superset to increase transparency around economically-disadvantaged areas' 911 call records 
 
 ### Skills Required / Preferred 
 
