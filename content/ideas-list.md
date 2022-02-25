@@ -152,9 +152,10 @@ We are modeling this open source development work after https://projects.propubl
 
 ## Open source visualization of cancer-causing chemicals in Black women's beauty products
 
+### Detailed Description
 Through a partnership, we have conducted a literature review of 150+ scientific publications. You will be responsible for communicating the essence of the literature review through online, interactive diagrams, using [MermaidJS](https://mermaid-js.github.io/mermaid-live-editor/).
 
-For example, this diagram illustrates the potential links between a given product and adverse health consequences:
+For example, this diagram (paste into https://mermaid-js.github.io/mermaid-live-editor/) illustrates the potential links between a given product and adverse health consequences:
 
 ```
 graph TD
@@ -191,6 +192,8 @@ graph TD
 
 ## Data science & machine learning - analysis of industry documents
 
+### Detailed Description
+
 Through a partnership, we have access to the UCSF Industry Documents library that collect large corporations' records that relate to public health. This project consists of applying the machine learning we developed for thebrowser.com - that is currently still in use to help editors select the best long-form content for their 70k+ readers - to these industry documents. The dashboard we built for thebrowser.com is available here: http://ceur-ws.org/Vol-2682/short2.pdf - and instead of longform journalism as data, you will be responsible for training the machine learning model on the industry documents and building the open source framework that forms the backbone of this project. 
 
 ### Expected Outcomes
@@ -217,6 +220,37 @@ Through a partnership, we have access to the UCSF Industry Documents library tha
 ### Difficulty Rating
 
 * Hard (the [prototype](https://github.com/the-browser/recommending-interesting-writing) has been built, so we can base our work off of our existing work, but cleaning )
+
+## Open source 911 system support tools
+
+### Detailed Description 
+
+The [Reimagine911](https://reimaginecrisis.org/) volunteer National Action Team at [Code for America](https://codeforamerica.org/) is slated to create prototypes this summer to provide proof points of recommendations to help transform 911 systems from a tech perspective. A precursor to this work is gathering, categorizing, sorting open data sets and evaluating simple machine learning models that can best support 911 operators. A detailed description of the Reimagine911 project is [here](https://docs.google.com/presentation/d/1wp0UE8HBGe4KfrSnubLlSXx8wlBMyPlOp2DddxRpc6I/edit), and this part of the project focuses on the data science and machine learning needed to create prototypes. 
+
+### Expected Outcomes
+
+* An open source framework prototype recommendation systems to help 911 operators triage emergency response coordination efforts 
+* The framework should support the ability to ingest, clean, and visualize the call records from the 13 cities and estimated 45 public safety answering points from around the United States
+* Integration with open source clinical guideline language frameworks for interoperability, such as [GDL](https://github.com/openEHR/gdl-guideline-models#readme) and [openEHR](https://github.com/openEHR/)
+
+### Skills Required / Preferred 
+
+* Experience with python
+* Interest in learning business intelligence dashboard tools such as [Apache Superset](https://superset.apache.org/) that we will base our work off of 
+* Interest in natural language processing tools such as as [spaCy](https://spacy.io/)
+
+### Possible Mentors
+
+* [Dr. Jaan Altosaar](https://github.com/altosaar/)
+* [Billy Lim](https://codeforamerica.org/people/billy-lim/)
+
+### Expected Size of Project
+
+* 350 hours
+
+### Difficulty Rating
+
+* Hard (the call records data is in somewhat usable format but will take work to clean and visualize, before moving onto the prototype systems to support 911 operators in triage workflows to get callers to the right person to the right place at the right time.)
 
 ## Open source clinical decision support tools
 
