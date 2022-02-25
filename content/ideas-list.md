@@ -81,7 +81,7 @@ We are basing this work off of [our GitHub repo](https://github.com/kexinhuang12
 
 ## Open Source Global Mental Health Resource
 
-## Detailed Description
+### Detailed Description
 
 Accessing information about therapy and mental health in the United States is extremely complex, and unfortunately many companies are out to make a buck.
 
