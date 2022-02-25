@@ -12,7 +12,9 @@ A sampling of our mentors' past open source work:
 * We worked with [The Browser](https://thebrowser.com) to build the first open source machine learning powered newsfeed framework, and published the source code on [GitHub](https://github.com/the-browser/recommending-interesting-writing) and the [whitepaper](http://ceur-ws.org/Vol-2682/short2.pdf) describing the architecture at an Association for Computing Machinery workshop on recommender systems 
 * The first open source language model validated against clinician judgment: https://arxiv.org/abs/1904.05342 ([223 stars](https://github.com/kexinhuang12345/clinicalBERT))
 
-## Software for visualization and geospatial analysis 
+## Software for Visualization and Geospatial Analysis 
+
+### Detailed Description
 
 Last summer our intern Anton Stengel (Princeton '23) developed several open source tools for helping bioinformatics, epidemiology, and public health policy research. First, we built and open-sourced the only dataset of assisted living facilities in the United States. These group homes are where the elderly, poor, or people with disabilities or mental illness can live and receive support for food and shelter through Medicaid. We work with policymakers, professors, and their research teams to build open source software to make this data accessible to the public and for research.
 
@@ -20,17 +22,66 @@ The next step of this project requires extending the visualization library that 
 
 By building software to overlay various measures onto the map of assisted living facilities, such as the [area disadvantage index](https://www.neighborhoodatlas.medicine.wisc.edu/), our open source software will help people and policymakers access this data, understand patterns in it (such as which states or counties or cities have less density of group homes), and help people navigate the broken US health care system using open source technology. The open source analysis can then be readily extended by others working on this data. 
 
-What you'll get out of it: 
+### Expected Outcomes
+* This open source web development work will be the only place where millions of Americans can access the dataset of 45k group homes that we have assembled and find a place to live that the government will pay for. It will lay the foundation for the public, policymakers, and machine learning researchers to build off of to better inform policy, understand health disparity, and help people navigate which housing is available for their elderly relatives, loved ones, or people in their lives with mental illness who need stable housing.
 
-* impact: your open source web development work will be the only place where millions of Americans can access the dataset of 45k group homes that we have assembled and find a place to live that the government will pay for.
+* In addition to the open source library, all contributors will be given co-author credit on the results that will be published at a peer-reviewed public health/machine learning/HCI conference (we have submitted peer-reviewed papers with 10 out of 10 of the past interns doing open source development).
 
-* in addition to open source, you will be given co-author credit on the results that will be published at a peer-reviewed public health/machine learning/HCI conference (we have submitted peer-reviewed papers with 10 out of 10 of the past interns doing open source development)
+### Skills Required / Preferred 
 
-## Open source AI for mental health 
+* Django
+* OpenStreetMap 
+* We are building off of this open source library for mapping health facilities: https://github.com/healthsites/healthsites/
+
+### Possible Mentors
+
+* [Dr. Jaan Altosaar](https://github.com/altosaar/)
+* [Anton Stengel](https://github.com/antonstengel) (lead author on the original repo and paper)
+* [Jeffrey Quinn](https://github.com/qwwqwwq) 
+* [Professor Noémie Elhadad](https://github.com/noemieelhadad)
+
+### Expected Size of Project
+
+* 350 hours
+
+### Difficulty Rating
+
+* Medium (we have prototyped the initial version based on this [library](https://github.com/healthsites/healthsites/), what remains is to convert our [dataset](onefact.org/assisted-living) to interoperate with this)
+
+## Open Source AI for Mental Health 
+
+### Detailed Description
 
 This project consists of building an open source framework for machine learning and mental health. Specifically, we have built models that can train clinicians during and after therapy sessions using the recordings of their voice, and transcripts of therapy sessions.  Giving therapists this type of feedback helps reduce depression and improves mental health (for example, see [this recent article](https://www.technologyreview.com/2021/12/06/1041345/ai-nlp-mental-health-better-therapists-psychology-cbt/)). You will learn how to extend this state-of-the-art language model to create an open source, extensible framework for research and clinical use. We will follow the same protocol we used to build ClinicalBERT (described in https://arxiv.org/abs/1904.05342; source code: https://github.com/kexinhuang12345/clinicalBERT).
 
+### Expected Outcomes
+
+We are basing this work off of [our GitHub repo](https://github.com/kexinhuang12345/clinicalBERT); the expected outcome is a GitHub repo consisting of a similar model -- instead of being trained on data generated by doctors, the model will be trained on data generated by therapists and their clients. This repo will allow any of the digital mental health [startups](https://onemindpsyberguide.org/) or [free services](https://cheeseburgertherapy.org/) to scale up their services off of a standard library that has been clinically validated with our collaborators at Weill Cornell Psychiatry and the Columbia University Irving Medical Center. 
+
+### Skills Required / Preferred 
+
+* Python
+* Some familiarity with deep learning libraries such as [jax](https://github.com/google/jax), [PyTorch](https://github.com/pytorch/pytorch), or [TensorFlow](https://github.com/tensorflow/tensorflow)
+* Interest in mental health
+* Ideally some knowledge of [linear algebra](https://www.khanacademy.org/math/linear-algebra) and [statistics](https://www.khanacademy.org/math/statistics-probability), or a willingness to learn. We can help.
+
+### Possible Mentors
+
+* [Dr. Jaan Altosaar](https://github.com/altosaar/)
+* [Professor Noémie Elhadad](https://github.com/noemieelhadad)
+
+### Expected Size of Project
+
+* 350 hours
+
+### Difficulty Rating
+
+* Hard (although we can base our work off of [this repo](https://github.com/kexinhuang12345/clinicalBERT) and [this tutorial](https://huggingface.co/blog/how-to-train), writing bugs in machine learning software engineering is easy, and even with our training and mentorship it will be difficult to avoid)
+
+
 ## Open source global mental health resource
+
+## Detailed Description
 
 Accessing information about therapy and mental health in the United States is extremely complex, and unfortunately many companies are out to make a buck.
 
@@ -44,9 +95,60 @@ The open source work for this project is scoped: it revolves around the design a
 
 The frontend development consists of building a scalable NextJS website for mobile- and desktop-usage, that is lightweight to be usable on older Android phones prevalent through many low- and middle-income countries. You will be working can with our team of researchers, psychologists, and psychiatrists at our partner institutions. 
 
+### Expected Outcomes
+
+* A frontend for therapyhandbook.org that operates as an open source GitHub Pages website that is mobile-friendly and ready.
+* A key component is internationalization
+* Importing the existing Markdown-format data from the mental health guides of our clinical partners at the [Child Mind Institute](https://childmind.org/guides/)
+
+### Skills Required / Preferred 
+
+* Frontend experience with NextJS (ideal) or Javascript
+* Static, responsive web development experience
+* Interest in mental health and low- and middle-income country humanitarian work
+
+### Possible Mentors
+
+* [Dr. Arno Klein](https://childmind.org/bio/arno-klein-phd/) ([GitHub](https://github.com/binarybottle))
+* [Dr. Jaan Altosaar](https://github.com/altosaar/)
+
+### Expected Size of Project
+
+* 350 hours 
+
+### Difficulty Rating
+
+* Medium (Several NextJS templates exist for documentation websites that support localization, and we have a team ready to assist with user experience iteration of the frontend work)
+
+
 ## Open source geospatial map and analysis of nuclear fallout sites in the US
 
+### Detailed Description
+
 We are modeling this open source development work after https://projects.propublica.org/toxmap/ - we are working with partner institutions that have collected data on every nuclear testing and fallout site in the United States. The nuclear testing has had severe repercussions on tens of thousands' of families, through cancers and other health conditions. Building an interactive map with open source technologies such as leaflet.js will help anyone affected connect to other surviors and understand what factors may have influenced their health. For a description of some of the political issues surrounding this, see [this article](https://harpers.org/archive/2022/01/spent-fuel-the-risky-resurgence-of-nuclear-power/).
+
+### Expected Outcomes
+
+* An interactive map such as https://projects.propublica.org/toxmap/ that is open source and navigable for the lay public, policymakers, data scientists, journalists, and other stakeholders 
+
+### Skills Required / Preferred 
+
+* Experience with open source map libraries such as Leaflet, OpenStreetMap
+* Experience with Django
+
+### Possible Mentors
+
+* [Dr. Jesse Dunietz](https://github.com/duncanka)
+* [Dr. Jaan Altosaar](https://github.com/altosaar/)
+
+### Expected Size of Project
+
+* 350 hours
+
+### Difficulty Rating
+
+* Medium (there are several open source libraries we have used to prototype, such as [this one](https://github.com/healthsites/healthsites/), so the tricky bits are getting the data on the nuclear testing and fallout sites in the right format to interoperate with these technologies)
+
 
 ## Open source visualization of cancer-causing chemicals in Black women's beauty products
 
@@ -63,13 +165,83 @@ graph TD
     C -->|Demographic: Hispanic Women| F[Cancer]
 ```
 
+### Expected Outcomes
+
+* An frontend for an interactive set of MermaidJS diagrams that are based on our public health research; this will be distributed to the NGO we are partnered with and hosted as a static GitHub Pages website.
+
+### Skills Required / Preferred 
+
+* Experience with frontend JavaScript development
+* Interest in public health 
+
+### Possible Mentors
+
+* [Jeff Quinn](https://github.com/qwwqwwq)
+* [Dr. Jaan Altosaar](https://github.com/altosaar/)
+* [Janet Nudelman, BCPP.org](https://www.linkedin.com/in/janet-nudelman-0782a72/)
+
+### Expected Size of Project
+
+* 150 hours
+
+### Difficulty Rating
+
+* Medium (there are several open source libraries we have used to prototype, such as [this one](https://github.com/healthsites/healthsites/), so the tricky bits are getting the data on the nuclear testing and fallout sites in the right format to interoperate with these technologies)
 
 
 ## Data science & machine learning - analysis of industry documents
 
 Through a partnership, we have access to the UCSF Industry Documents library that collect large corporations' records that relate to public health. This project consists of applying the machine learning we developed for thebrowser.com - that is currently still in use to help editors select the best long-form content for their 70k+ readers - to these industry documents. The dashboard we built for thebrowser.com is available here: http://ceur-ws.org/Vol-2682/short2.pdf - and instead of longform journalism as data, you will be responsible for training the machine learning model on the industry documents and building the open source framework that forms the backbone of this project. 
 
+### Expected Outcomes
+
+* An interactive browser to help journalists and policymakers navigate the UCSF Industry Documents Library, based off of our prior work: https://the-browser.github.io/recommending-interesting-writing/ ([GitHub repo](https://github.com/the-browser/recommending-interesting-writing)) for the lay public, policymakers, data scientists, journalists, and other stakeholders 
+
+### Skills Required / Preferred 
+
+* Experience with python
+* Some familiarity with machine learning libraries such as [jax](https://github.com/google/jax), [PyTorch](https://github.com/pytorch/pytorch), or [TensorFlow](https://github.com/tensorflow/tensorflow)
+* Some familiarity with JavaScript and frontend development
+* Interest in natural language processing tools such as as [spaCy](https://spacy.io/)
+
+### Possible Mentors
+
+* [Dr. Gary Ruskin](https://usrtk.org/about/gary-ruskin/)
+* [Dr. Jaan Altosaar](https://github.com/altosaar/)
+* [Rohan Bansal](https://rohan.page/) ([GitHub](https://github.com/rohanbansal12), lead author of the original open source library we created)
+
+### Expected Size of Project
+
+* 350 hours
+
+### Difficulty Rating
+
+* Hard (the [prototype](https://github.com/the-browser/recommending-interesting-writing) has been built, so we can base our work off of our existing work, but cleaning )
+
 ## Open source clinical decision support tools
 
-As [Dr. Atul Gawande](https://www.newyorker.com/magazine/2007/12/10/the-checklist) writes, checklists can save lives. However, it is difficult to deploy these life-saving tools for clinical use. For this project, the deliverable is the first open source clinical decision support tool for checklists of the type that Dr. Gawande has studied. We are building this in collaboration with our partner, [intelehealth.org](https://intelehealth.org), an open source nonprofit dedicated to last-mile delivery of health care to rural India. The open source framework to be built requires a working knowledge of tools like Next.JS, HTML5, and others. 
+As [Dr. Atul Gawande](https://www.newyorker.com/magazine/2007/12/10/the-checklist) writes, checklists can save lives. However, it is difficult to deploy these life-saving tools for clinical use. For this project, the deliverable is the first open source clinical decision support tool for checklists of the type that Dr. Gawande has studied. We are building this in collaboration with our clinical partner, [intelehealth.org](https://intelehealth.org), an open source nonprofit dedicated to last-mile delivery of health care to rural India. The open source framework to be built requires a working knowledge of tools like Next.JS, HTML5, and others. 
 
+### Expected Outcomes
+
+* An open source framework for HTML5-based simple clinical decision support tools for community health workers in low- and middle-income countries
+* Integration with open source clinical guideline language frameworks for interoperability, such as [GDL](https://github.com/openEHR/gdl-guideline-models#readme) and [openEHR](https://github.com/openEHR/)
+
+### Skills Required / Preferred 
+
+* Experience with JavaScript and HTML
+* Interest in natural language processing tools such as as [spaCy](https://spacy.io/)
+
+### Possible Mentors
+
+* [Dr. Jaan Altosaar](https://github.com/altosaar/)
+* [Lawder Paul](https://lawder.me/)
+* [Priya Joshi](https://www.linkedin.com/in/priya-joshi-910b2b27/)
+
+### Expected Size of Project
+
+* 350 hours
+
+### Difficulty Rating
+
+* Hard (the [prototype](https://codepen.io/altosaar/pen/yLPjYQz) has been built based off of existing [clinical guidelines](https://www.uptodate.com/contents/covid-19-management-in-hospitalized-adults), but it will take a lot of work to support localization to Dravidian and Indo-Aryan languages like Hindi, Telugu, and Kannada.)
