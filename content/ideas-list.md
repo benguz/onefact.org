@@ -79,7 +79,7 @@ We are basing this work off of [our GitHub repo](https://github.com/kexinhuang12
 * Hard (although we can base our work off of [this repo](https://github.com/kexinhuang12345/clinicalBERT) and [this tutorial](https://huggingface.co/blog/how-to-train), writing bugs in machine learning software engineering is easy, and even with our training and mentorship it will be difficult to avoid)
 
 
-## Open source global mental health resource
+## Open Source Global Mental Health Resource
 
 ## Detailed Description
 
@@ -121,7 +121,7 @@ The frontend development consists of building a scalable NextJS website for mobi
 * Medium (Several NextJS templates exist for documentation websites that support localization, and we have a team ready to assist with user experience iteration of the frontend work)
 
 
-## Open source geospatial map and analysis of nuclear fallout sites in the US
+## Open Source Interactive Geospatial Visualization of Nuclear Fallout Sites
 
 ### Detailed Description
 
@@ -150,7 +150,7 @@ We are modeling this open source development work after https://projects.propubl
 * Medium (there are several open source libraries we have used to prototype, such as [this one](https://github.com/healthsites/healthsites/), so the tricky bits are getting the data on the nuclear testing and fallout sites in the right format to interoperate with these technologies)
 
 
-## Open source visualization of cancer-causing chemicals in Black women's beauty products
+## Open Source Visualization of Cancer-causing Chemicals in Black Women's Beauty Products
 
 ### Detailed Description
 Through a partnership, we have conducted a literature review of 150+ scientific publications. You will be responsible for communicating the essence of the literature review through online, interactive diagrams, using [MermaidJS](https://mermaid-js.github.io/mermaid-live-editor/).
@@ -190,7 +190,7 @@ graph TD
 * Medium (there are several open source libraries we have used to prototype, such as [this one](https://github.com/healthsites/healthsites/), so the tricky bits are getting the data on the nuclear testing and fallout sites in the right format to interoperate with these technologies)
 
 
-## Data science & machine learning - analysis of industry documents
+## Natural Language Processing Analysis and Dashboard for Public Health-related Industry Documents
 
 ### Detailed Description
 
@@ -221,7 +221,7 @@ Through a partnership, we have access to the UCSF Industry Documents library tha
 
 * Hard (the [prototype](https://github.com/the-browser/recommending-interesting-writing) has been built, so we can base our work off of our existing work, but cleaning )
 
-## Open source 911 system support tools
+## Open Source 911 Operator Support Tools
 
 ### Detailed Description 
 
@@ -252,7 +252,7 @@ The [Reimagine911](https://reimaginecrisis.org/) volunteer National Action Team 
 
 * Hard (the call records data is in somewhat usable format but will take work to clean and visualize, before moving onto the prototype systems to support 911 operators in triage workflows to get callers to the right person to the right place at the right time.)
 
-## Open source clinical decision support tools
+## Open Source Clinical Decision Support
 
 As [Dr. Atul Gawande](https://www.newyorker.com/magazine/2007/12/10/the-checklist) writes, checklists can save lives. However, it is difficult to deploy these life-saving tools for clinical use. For this project, the deliverable is the first open source clinical decision support tool for checklists of the type that Dr. Gawande has studied. We are building this in collaboration with our clinical partner, [intelehealth.org](https://intelehealth.org), an open source nonprofit dedicated to last-mile delivery of health care to rural India. The open source framework to be built requires a working knowledge of tools like Next.JS, HTML5, and others. 
 
