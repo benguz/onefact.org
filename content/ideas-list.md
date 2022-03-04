@@ -252,6 +252,37 @@ The [Reimagine911](https://reimaginecrisis.org/) volunteer National Action Team 
 
 * Hard (the call records data is in somewhat usable format but will take work to clean and visualize, before moving onto the prototype systems to support 911 operators in triage workflows to get callers to the right person to the right place at the right time.)
 
+## Open source connector for FHIR API and OpenEHR 
+
+### Detailed Description
+
+OpenEHR is an open source standard for clinical data repositories worldwide; it has been deployed in several [countries](https://www.openehr.org/openehr_in_use/deployed_solutions/). However, there is no standard for visualizing data in OpenEHR, because of the lack of integration with a [FHIR](https://www.hl7.org/fhir/http.html) API. Specifically: OpenEHR uses an archetype query language (AQL; analogous to SQL for hierarchical data), and a FHIR API is needed to link AQL queries to data stored in enterprise resource planning (ERP) software, such as patient age, race, gender, ethnicity, and other demographics and billing information. This project will build a connector to Apache Superset between the FHIR API that links ERP data to OpenEHR data, and will enable building hospital-level analytics dashboards across the world for quality improvement, clinical documentation improvement, and clinical decision support.
+
+### Expected Outcomes
+
+* A connector for Apache Superset to interface between the FHIR API, enterprise resource planning software, and OpenEHR standards implementations such as EHRBase, Better, EtherCIS, etc. 
+
+### Skills Required / Preferred 
+
+* Experience with databases such as SQL and Postgres
+* Experience with Java
+* Willingness to learn AQL
+* Willingness to learn about FHIR data standards 
+* Interest in clinical data and machine learning
+
+### Possible Mentors
+
+* [Dr. Sidharth Ramesh](https://github.com/sidharthramesh)
+* [Dr. Jaan Altosaar](https://github.com/altosaar/)
+
+### Expected Size of Project
+
+* 350 hours
+
+### Difficulty Rating
+
+* Hard (FHIR and OpenEHR standards are difficult to understand; however Drs. Ramesh and Altosaar have both worked extensively with Apache Superset in clinical settings)
+
 ## Open Source Clinical Decision Support
 
 As [Dr. Atul Gawande](https://www.newyorker.com/magazine/2007/12/10/the-checklist) writes, checklists can save lives. However, it is difficult to deploy these life-saving tools for clinical use. For this project, the deliverable is the first open source clinical decision support tool for checklists of the type that Dr. Gawande has studied. We are building this in collaboration with our clinical partner, [intelehealth.org](https://intelehealth.org), an open source nonprofit dedicated to last-mile delivery of health care to rural India. The open source framework to be built requires a working knowledge of tools like Next.JS, HTML5, and others. 
