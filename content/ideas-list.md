@@ -310,3 +310,66 @@ As [Dr. Atul Gawande](https://www.newyorker.com/magazine/2007/12/10/the-checklis
 ### Difficulty Rating
 
 * Hard (the [prototype](https://codepen.io/altosaar/pen/yLPjYQz) has been built based off of existing [clinical guidelines](https://www.uptodate.com/contents/covid-19-management-in-hospitalized-adults), but it will take a lot of work to support localization to Dravidian and Indo-Aryan languages like Hindi, Telugu, and Kannada.)
+
+## Open source biofeedback for vocal physiology
+
+### Detailed Description
+
+Metrics from computer vision are now commodity, such as facial action unit estimation from video, or remote pulse oximetry, through to mandibular aperture. 
+
+From such metrics, pedagogical content knowledge can be derived. For example, a simple Fourier transform can be used to inform someone with vocal pathophysiology about the strain in their vocal folds, or used to inform a singer of the rate or extent of their vibrato to help monitor their vocal health or improve their technique. 
+
+### Expected Outcomes
+
+* An open source, web-based, WebGL-accelerated version of Praat (https://www.fon.hum.uva.nl/praat/), that monitors pitch, analyzes rate and extent of vibrato, measures mandibular aperture, and feeds this information back in realtime to a singer, speech pathologist, vocal coach, or other interested stakeholder.
+
+### Skills Required / Preferred 
+
+* Experience with WebGL-accelerated code
+* Experience with Javascript
+* Willingness to learn computer vision libraries such as Jax, Pytorch, or TensorFlow
+* Willingness to learn about vocal technique and music concepts such as fundamental frequency
+* Interest in clinical speech pathology
+
+### Possible Mentors
+
+* [Dr. Jaan Altosaar](https://github.com/altosaar/)
+* [Richard Lissemore](http://www.richardlissemore.com/)
+
+### Expected Size of Project
+
+* 350 hours
+
+### Difficulty Rating
+
+* Hard
+
+## Open Source Clinical Decision Support
+
+As [Dr. Atul Gawande](https://www.newyorker.com/magazine/2007/12/10/the-checklist) writes, checklists can save lives. However, it is difficult to deploy these life-saving tools for clinical use. For this project, the deliverable is the first open source clinical decision support tool for checklists of the type that Dr. Gawande has studied. We are building this in collaboration with our clinical partner, [intelehealth.org](https://intelehealth.org), an open source nonprofit dedicated to last-mile delivery of health care to rural India. The open source framework to be built requires a working knowledge of tools like Next.JS, HTML5, and others. 
+
+### Expected Outcomes
+
+* An open source framework for HTML5-based simple clinical decision support tools for community health workers in low- and middle-income countries
+* Integration with open source clinical guideline language frameworks for interoperability, such as [GDL](https://github.com/openEHR/gdl-guideline-models#readme) and [openEHR](https://github.com/openEHR/)
+
+### Skills Required / Preferred 
+
+* Experience with JavaScript and HTML
+* Interest in natural language processing tools such as as [spaCy](https://spacy.io/)
+
+### Possible Mentors
+
+* [Dr. Jaan Altosaar](https://github.com/altosaar/)
+* [Lawder Paul](https://lawder.me/)
+* [Priya Joshi](https://www.linkedin.com/in/priya-joshi-910b2b27/)
+
+### Expected Size of Project
+
+* 350 hours
+
+### Difficulty Rating
+
+* Hard (the [prototype](https://codepen.io/altosaar/pen/yLPjYQz) has been built based off of existing [clinical guidelines](https://www.uptodate.com/contents/covid-19-management-in-hospitalized-adults), but it will take a lot of work to support localization to Dravidian and Indo-Aryan languages like Hindi, Telugu, and Kannada.)
+
+
