@@ -321,7 +321,7 @@ From such metrics, pedagogical content knowledge can be derived. For example, a 
 
 ### Expected Outcomes
 
-* An open source, web-based, WebGL-accelerated version of Praat (https://www.fon.hum.uva.nl/praat/), that monitors pitch, analyzes rate and extent of vibrato, measures mandibular aperture, and feeds this information back in realtime to a singer, speech pathologist, vocal coach, or other interested stakeholder.
+* An open source, web-based, WebGL-accelerated version of Praat (https://www.fon.hum.uva.nl/praat/), that monitors pitch, analyzes rate and extent of vibrato, measures mandibular aperture, and feeds this information back in realtime to a singer, speech pathologist, vocal coach, or other interested stakeholder. It should be as easy to use as https://elsaspeak.com/en/ or https://www.duolingo.com/.
 
 ### Skills Required / Preferred 
 
